@@ -10,3 +10,11 @@ This is a backend application for a voting system where users can vote for candi
 - **Admin cannot vote**
 
 ## Technology Used
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **JSON Web Tokens (JWT) for authentication**
+
+## API Endpoints
+
+### Authentication
