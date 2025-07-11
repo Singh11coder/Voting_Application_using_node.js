@@ -15,6 +15,13 @@ This is a backend application for a voting system where users can vote for candi
 - **MongoDB**
 - **JSON Web Tokens (JWT) for authentication**
 
+# Planning & Flow of Application
+<img width="728" height="749" alt="Image of Voting Application" src="https://github.com/user-attachments/assets/ab5c6c45-62d1-42f8-ba2e-06efcf0a4bee" />
+
+
+
+
+
 # API Endpoints
 
 ## Authentication
