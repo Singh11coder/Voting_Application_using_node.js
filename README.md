@@ -1,25 +1,28 @@
-# Voting_Application_using_node.js
+# Voting Application
+
 This is a backend application for a voting system where users can vote for candidates. It provides functionalities for user authentication, candidate management, and voting.
 
 ## Features
 
-- **User sign up and login with Aadhar Card Number and password**
-- **User can view the list of candidates**
-- **User can vote for a candidate (only once)**
-- **Admin can manage candidates (add, update, delete)**
-- **Admin cannot vote**
+- User sign up and login with Aadhar Card Number and password
+- User can view the list of candidates
+- User can vote for a candidate (only once)
+- Admin can manage candidates (add, update, delete)
+- Admin cannot vote
 
-## Technology Used
-- **Node.js**
-- **Express.js**
-- **MongoDB**
-- **JSON Web Tokens (JWT) for authentication**
+## Technologies Used
 
-# Planning & Flow of Application
-<img width="728" height="749" alt="Image of Voting Application" src="https://github.com/user-attachments/assets/ab5c6c45-62d1-42f8-ba2e-06efcf0a4bee" />
+- Node.js
+- Express.js
+- MongoDB
+- JSON Web Tokens (JWT) for authentication
 
+## Installation
 
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/Prince-1501/voting_app.git
 
 
 # API Endpoints
@@ -27,38 +30,37 @@ This is a backend application for a voting system where users can vote for candi
 ## Authentication
 
 ### Sign Up
-- **POST** `/signup` : Sign up a user
+- `POST /signup`: Sign up a user
 
 ### Login
-- **POST** `/login` : Login a user
+- `POST /login`: Login a user
 
 ## Candidates
 
 ### Get Candidates
-- **GET** `/candidates` : Get the list of candidates
+- `GET /candidates`: Get the list of candidates
 
 ### Add Candidate
-- **POST** `/candidates` : Add a new candidate (Admin only)
+- `POST /candidates`: Add a new candidate (Admin only)
 
 ### Update Candidate
-- **PUT** `/candidates/:id` : Update a candidate by ID (Admin only)
+- `PUT /candidates/:id`: Update a candidate by ID (Admin only)
 
 ### Delete Candidate
-- **DELETE** `/candidates/:id` : Delete a candidate by ID (Admin only)
+- `DELETE /candidates/:id`: Delete a candidate by ID (Admin only)
 
 ## Voting
 
 ### Get Vote Count
-- **GET** `/candidates/vote/count` : Get the count of votes for each candidate
+- `GET /candidates/vote/count`: Get the count of votes for each candidate
 
 ### Vote for Candidate
-- **POST**` /candidates/vote/:id`:Vote for a candidate (User only)
+- `POST /candidates/vote/:id`: Vote for a candidate (User only)
 
 ## User Profile
 
 ### Get Profile
-- **GET** `/users/profile`:Get user profile information
+- `GET /users/profile`: Get user profile information
 
-### Chnage Password
-- **PUT** `/users/profile/password`: Change user password
-
+### Change Password
+- `PUT /users/profile/password`: Change user password
